@@ -3,6 +3,8 @@
 AzureAD Connection & Error Checking with Logging - Template
 Created by Nick Brizzolara
 Created on 12/27/2022
+
+!! This Powershell Module is slated for depreciation by Microsoft, consider using the "Microsoft.Graph" Module for future scripts. !!
 #>
 
 #Static Variables
