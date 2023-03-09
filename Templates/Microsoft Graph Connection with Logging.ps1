@@ -21,7 +21,7 @@ Function Write-LogMessage ([string]$message) {
 function Connect-MgGraphViaCred {
     <#
     .SYNOPSIS
-    Provided by: Provided by: https://doitpsway.com/how-to-connect-to-the-microsoft-graph-api-using-saved-user-credentials
+    Provided by: https://doitpsway.com/how-to-connect-to-the-microsoft-graph-api-using-saved-user-credentials
     Function for connecting to the Microsoft Graph using given credentials.
     This option is unavailable with official Connect-MgGraph command.
 
