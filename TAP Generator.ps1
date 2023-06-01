@@ -7,13 +7,12 @@ Created on 5/15/2023
 .DESCRIPTION
 Used to create temporary access passes for users listed in a CSV.
 
-Set the $Userlist variable to the path of a CSV containting UPN's of users that require a TAP provisioned.
-
 
 #>
 
 #Static Variables
 $Userlist = Import-CSV ""
+$TAPExportList = "C:\Temp\TAPExport.csv"
 
 #Log file location setup
 $dateandtime = Get-Date -Format "yyyy_MM_dd_HH_mm"
@@ -93,4 +92,4 @@ $TAPList += @(
 }
 
 #Export list to CSV
-$TAPList | Export-Csv C:\temp\taptest.csv
+$TAPList | Export-Csv $TAPExportList
